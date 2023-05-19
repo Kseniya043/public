@@ -401,6 +401,12 @@ body {
     border-right: 1px solid #E1E1E1;
 
 }
+.search__cap_card-function input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
 .search__cap_card-block:first-child {
     padding-left: 0;
 }
@@ -424,19 +430,19 @@ body {
     color: #000000;
     font-weight: 400;
     font-size: 12px;
+    margin-bottom: 15px;
 }
 
 .search__cap_card-option {
     font-weight: 400;
     font-size: 16px;
     color: #000000;
-    margin-top: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .search__cap_card-arrow {
-    margin-top: 30px;
     margin-left: 26px;
-    margin-right: 20px;
     line-height: 3px;
 
 }
@@ -462,6 +468,9 @@ body {
 }
 
 
+.search__cap_card-choice {
+
+}
 
 
 
@@ -479,7 +488,6 @@ body {
 
 .contacts__block_info {
     display: flex;
-    padding-left: 46px;
     padding-top: 25px;
     padding-bottom: 23px;
 }
@@ -492,6 +500,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     width: 40%;
+
 }
 
 .contacts__block_info-subtitle {
@@ -514,11 +523,12 @@ body {
 }
 
 .contacts__block_info-img {
+    padding-left: 50px;
 }
 
 .contacts__bottom_info {
     padding-top: 45px;
-    padding-left: 46px;
+
 }
 
 .contacts__block_info-button {
@@ -528,7 +538,7 @@ body {
     border-radius: 10px;
     font-size: 16px;
     border-width: 1px;
-    padding: 13px 20px;
+    padding: 27px 29px;
     Weight: 700;
 }
 
@@ -564,13 +574,8 @@ body {
     flex-direction: column;
     width: 25%;
     justify-content: space-between;
-
-
-
-
-
-
 }
+
 .footer__block_info p {
     color: #FFFFFF;
     font-weight: 400;
